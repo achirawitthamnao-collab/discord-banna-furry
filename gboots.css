@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* แก้จาก justify-items */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("images_30.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    padding: 30px;
+    border-radius: 30px;
+    border: 10px solid rgb(223, 250, 255);
+    box-shadow: 0 0 100px snow;
+    background-color: aqua;
+    animation: na 2s linear infinite;
+}
+
+
+/* เปลี่ยนให้พื้นหลังขยับแทน */
+
+@keyframes na {
+    0% {
+        background-color: aqua;
+        color: black;
+    }
+    50% {
+        background-color: rgb(180, 240, 255);
+        color: white;
+    }
+    100% {
+        background-color: aqua;
+        color: black;
+    }
+}
+
+button,
+#kuy {
+    display: block;
+    margin: 0 auto;
+}
